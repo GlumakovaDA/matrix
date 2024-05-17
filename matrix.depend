@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1715933924 source:c:\users\user\desktop\matrix\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"matrix.h"
+	"matrix_actions.h"
+	"matrix_structure.h"
+
+1715934632 source:c:\users\user\desktop\matrix\adding.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+
+1715933706 c:\users\user\desktop\matrix\matrix.h
+	<stdio.h>
+	<stdlib.h>
+
+1715547328 c:\users\user\desktop\matrix\matrix_actions.h
+	"matrix.h"
+
+1715536649 source:c:\users\user\desktop\matrix\matrix_size.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+
+1715542574 source:c:\users\user\desktop\matrix\multiplying.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+
+1715934105 source:c:\users\user\desktop\matrix\strings.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+
+1715543275 source:c:\users\user\desktop\matrix\transposes.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+	"matrix_structure.h"
+
+1715543231 source:c:\users\user\desktop\matrix\alloc.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_structure.h"
+
+1714766260 source:c:\users\user\desktop\matrix\change_elem.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+
+1715933694 source:c:\users\user\desktop\matrix\tasks.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	<math.h>
+	"matrix.h"
+	"matrix_actions.h"
+
+1715543200 c:\users\user\desktop\matrix\matrix_structure.h
+
+1715547346 source:c:\users\user\desktop\matrix\matrix_print.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+	"matrix_structure.h"
+
