@@ -25,8 +25,8 @@ matrix* matrix_copy(matrix* a, matrix* b)
     {
         return NULL;
     }
-    size_t ma = matrix_m(a);
-    size_t na = matrix_n(a);
+    size_t ma = size_m(a);
+    size_t na = size_n(a);
     if(!b)
     {
         b = matrix_alloc(ma, na);

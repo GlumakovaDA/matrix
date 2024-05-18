@@ -6,7 +6,7 @@
 
 void swap_strings(matrix* a, size_t x, size_t y)
 {
-    size_t current_n = matrix_n(a);
+    size_t current_n = size_n(a);
     element_t* b = malloc(current_n * sizeof(element_t));
     for(size_t j=0; j < current_n; j++)
     {
@@ -26,7 +26,7 @@ void swap_strings(matrix* a, size_t x, size_t y)
 
 void minus_str(matrix* a, size_t x, size_t y, element_t c)
 {
-    size_t current_n = matrix_n(a);
+    size_t current_n = size_n(a);
     for(size_t j=0; j < current_n; j++)
     {
         element_t k = in_index(a, x, j);
@@ -37,7 +37,7 @@ void minus_str(matrix* a, size_t x, size_t y, element_t c)
 
 void multipl_str(matrix* a, size_t x, element_t c)
 {
-    size_t n = matrix_n(a);
+    size_t n = size_n(a);
     for(size_t j=0; j < n; j++)
     {
         element_t k=in_index(a, x, j);

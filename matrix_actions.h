@@ -39,10 +39,13 @@ void multipl_str(matrix* a, size_t x, element_t c);
 ///prints the given matrix
 void matrix_print(struct matrix* a);
 
+///function computes the matrix exponential of the given matrix a up to a given precision eps
 matrix* matrix_exp(matrix* a, element_t eps);
 
+///function calculates the norm of a matrix a.
 element_t matrix_norm(matrix* a);
 
+///this function performs Gaussian elimination on the matrix a
 matrix* gauss (matrix* a);
 
 #endif // MATRIX_ACTIONS_H_INCLUDED

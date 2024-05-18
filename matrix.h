@@ -7,10 +7,10 @@ typedef double element_t;
 struct matrix;
 
 ///number of rows in the matrix
-size_t matrix_m(matrix* a);
+size_t size_m(matrix* a);
 
 ///number of columns in the matrix
-size_t matrix_n(matrix* a);
+size_t size_n(matrix* a);
 
 ///resize the matrix by m rows, n columns
 matrix* matrix_resize(matrix* a, size_t m, size_t n);

@@ -7,8 +7,8 @@
 
 matrix* gauss(matrix* a)
 {
-    size_t n = matrix_m(a);
-    size_t m = matrix_n(a);
+    size_t n = size_m(a);
+    size_t m = size_n(a);
     matrix* x = matrix_alloc(n, 1);
 
     for (size_t i = 0; i < n; i++)
@@ -67,8 +67,8 @@ matrix* matrix_exp(matrix* a, element_t eps)
     {
         return NULL;
     }
-    size_t ma = matrix_m(a);
-    size_t na = matrix_n(a);
+    size_t ma = size_m(a);
+    size_t na = size_n(a);
     if(ma!= na)
     {
         return NULL;
@@ -99,8 +99,8 @@ matrix* matrix_exp(matrix* a, element_t eps)
 
 element_t matrix_norm(matrix* a)
 {
-    size_t current_m = matrix_m(a);
-    size_t current_n = matrix_n(a);
+    size_t current_m = size_m(a);
+    size_t current_n = size_n(a);
     element_t norm = 0;
 
     for(size_t i=0; i < current_n; i++)

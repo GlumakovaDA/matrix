@@ -11,12 +11,12 @@ struct matrix
     element_t* mat;
 };
 
-size_t matrix_m(matrix* matrix)
+size_t size_m(matrix* matrix)
 {
     return matrix->m;
 }
 
-size_t matrix_n(matrix* matrix)
+size_t size_n(matrix* matrix)
 {
     return matrix->n;
 }
