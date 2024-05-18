@@ -2,14 +2,9 @@
 #include <stdlib.h>
 #include <malloc.h>
 #include "matrix.h"
+#include "matrix_structure.h"
 
-struct matrix
-{
-    size_t MAX;
-    size_t m;
-    size_t n;
-    element_t* mat;
-};
+
 void change_elem(matrix* a, size_t i, size_t j, element_t x)
 {
     size_t N=a->n;

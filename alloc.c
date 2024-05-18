@@ -19,6 +19,34 @@ matrix* matrix_alloc(size_t given_m, size_t given_n)
     return a;
 }
 
+matrix* null_alloc(size_t given_m, size_t given_n)
+{
+    matrix* a= matrix_alloc(given_m, given_n);
+    for(size_t i=0; i<given_m*given_n; i++)
+    {
+        a->mat[i]=0;
+    }
+    return a;
+}
+
+matrix* e_alloc(size_t given_m, size_t given_n)
+{
+    matrix* matr = matrix_alloc(given_m, given_m);
+    for(size_t i=0; i<given_m * given_n; i++)
+    {
+        size_t y=i-(i/given_m)*given_n;
+        if((i/given_m)!=y)
+        {
+            matr->mat[i]=0;
+        }
+        else
+        {
+            matr->mat[i]=1;
+        }
+    }
+    return matr;
+}
+
 matrix* matrix_copy(matrix* a, matrix* b)
 {
     if(!a)
@@ -44,41 +72,12 @@ matrix* matrix_copy(matrix* a, matrix* b)
     {
         for(size_t j = 0; j  <na; j++)
         {
-            element_t x = in_index(a, i, j);
-            change_elem(b, i, j, x);
+            change_elem(b, i, j, in_index(a, i, j));
         }
     }
     return b;
 }
 
-matrix* null_alloc(size_t given_m, size_t given_n)
-{
-    matrix* a= matrix_alloc(given_m, given_n);
-    for(size_t i=0; i<given_m*given_n; i++)
-    {
-        a->mat[i]=0;
-    }
-    return a;
-}
-
-matrix* e_alloc(size_t given_m, size_t given_n)
-{
-    matrix* matr= matrix_alloc(given_m, given_m);
-    for(size_t i=0; i<given_m * given_n; i++)
-    {
-        size_t x=i/given_m;
-        size_t y=i-x*given_n;
-        if(x!=y)
-        {
-            matr->mat[i]=0;
-        }
-        else
-        {
-            matr->mat[i]=1;
-        }
-    }
-    return matr;
-}
 
 void matrix_free(matrix* matr)
 {
