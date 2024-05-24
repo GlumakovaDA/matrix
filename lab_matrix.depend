@@ -1,0 +1,154 @@
+# depslib dependency file v1.0
+1716577990 source:c:\users\user\desktop\Новая папка\lab_matrix\adding.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+
+1716578461 c:\users\user\desktop\Новая папка\lab_matrix\matrix.h
+
+1716578506 c:\users\user\desktop\Новая папка\lab_matrix\matrix_actions.h
+
+1716578023 source:c:\users\user\desktop\Новая папка\lab_matrix\alloc.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_structure.h"
+
+1716578506 c:\users\user\desktop\Новая папка\lab_matrix\matrix_structure.h
+
+1716578238 source:c:\users\user\desktop\Новая папка\lab_matrix\change_elem.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_structure.h"
+
+1716578132 source:c:\users\user\desktop\Новая папка\lab_matrix\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"matrix.h"
+	"matrix_actions.h"
+	"matrix_structure.h"
+
+1716578238 source:c:\users\user\desktop\Новая папка\lab_matrix\matrix_print.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+	"matrix_structure.h"
+
+1716578271 source:c:\users\user\desktop\Новая папка\lab_matrix\matrix_size.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_structure.h"
+
+1716578310 source:c:\users\user\desktop\Новая папка\lab_matrix\multiplying.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+
+1716578344 source:c:\users\user\desktop\Новая папка\lab_matrix\strings.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+
+1716578406 source:c:\users\user\desktop\Новая папка\lab_matrix\tasks.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	<math.h>
+	"matrix.h"
+	"matrix_actions.h"
+
+1716578406 source:c:\users\user\desktop\Новая папка\lab_matrix\transposes.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+	"matrix_structure.h"
+
+1716577990 source:c:\users\user\desktop\lab_matrix\adding.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+
+1716578461 c:\users\user\desktop\lab_matrix\matrix.h
+
+1716578506 c:\users\user\desktop\lab_matrix\matrix_actions.h
+
+1716578238 source:c:\users\user\desktop\lab_matrix\change_elem.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_structure.h"
+
+1716578506 c:\users\user\desktop\lab_matrix\matrix_structure.h
+
+1716578132 source:c:\users\user\desktop\lab_matrix\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"matrix.h"
+	"matrix_actions.h"
+	"matrix_structure.h"
+
+1716578238 source:c:\users\user\desktop\lab_matrix\matrix_print.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+	"matrix_structure.h"
+
+1716578271 source:c:\users\user\desktop\lab_matrix\matrix_size.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_structure.h"
+
+1716578310 source:c:\users\user\desktop\lab_matrix\multiplying.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+
+1716578344 source:c:\users\user\desktop\lab_matrix\strings.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+
+1716578406 source:c:\users\user\desktop\lab_matrix\tasks.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	<math.h>
+	"matrix.h"
+	"matrix_actions.h"
+
+1716578406 source:c:\users\user\desktop\lab_matrix\transposes.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"matrix.h"
+	"matrix_actions.h"
+	"matrix_structure.h"
+
