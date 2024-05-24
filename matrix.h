@@ -1,7 +1,6 @@
-#ifndef MATRIX_H
-#define MATRIX_H
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef MATRIX_H_INCLUDED
+#define MATRIX_H_INCLUDED
+
 typedef struct matrix matrix;
 typedef double element_t;
 struct matrix;
@@ -37,4 +36,5 @@ void change_elem(matrix* a, size_t i, size_t j, element_t x);
 element_t in_index(matrix* a, size_t i, size_t j);
 
 
-#endif // MATRIX_H
+
+#endif // MATRIX_H_INCLUDED

@@ -81,7 +81,11 @@ matrix* matrix_copy(matrix* a, matrix* b)
 
 void matrix_free(matrix* matr)
 {
-    free(matr->mat);
-    free(matr);
+    if(matr != NULL)
+    {
+        free(matr->mat);
+        free(matr);
+        matr = NULL;
+    }
 }
 

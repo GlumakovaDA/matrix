@@ -9,4 +9,5 @@ struct matrix
     element_t* mat;
 };
 
+
 #endif // MATRIX_STRUCTURE_H_INCLUDED

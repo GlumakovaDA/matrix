@@ -1,6 +1,5 @@
 #ifndef MATRIX_ACTIONS_H_INCLUDED
 #define MATRIX_ACTIONS_H_INCLUDED
-#include "matrix.h"
 
 typedef struct matrix matrix;
 typedef double element_t;
